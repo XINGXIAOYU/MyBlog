@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Edit</title>
+<link rel="stylesheet" type="text/css"
+        href="css/style2.css"/>
+<link rel="stylesheet" type="text/css"
+        href="css/detail5.css"/>
+<link rel="stylesheet" type="text/css"
+        href="css/detail1.css"/>
+</head>
+<body>
+<div id="wrapper">
+  <div id="side1"></div>
+  <div id="side2"></div>
+  <header id="head">
+    <h1>宇宙无敌超级大丸子的博客</h1>
+    <h2>http://blog.wanzi.com</h2>
+  </header>
+  <nav id="nav"> 
+    <!--the nav of the blog-->
+    <ul>
+      <li id="frontpage" class="myNav"><a href="index.html">首页</a> </li>
+      <li id="index" class="myNav"><a href="blog_list.html">博文目录</a> </li>
+      <li id="image" class="myNav"><a href="">图片</a> </li>
+      <li id="aboutMe" class="myNav"><a href="">关于我</a></li>
+    </ul>
+  </nav>
+  <div id="main">
+    <header class="title" id="hh">发博文</header>
+    <section>
+      <div id="article_name"><span class="mtitle">标题:</span>
+        <div id="article_title">
+          <input type="text" name="biaoti" id="biaoti"/>
+        </div>
+      </div>
+      <div id="content">
+        <textarea id="textarea"></textarea>
+      </div>
+      <div id="new">
+        <div id="a"> <span class = "mtitle">分类:</span>
+          <select>
+            <option value ="1" selected="selected" disabled="disabled">选择分类</option>
+            <option value ="2">文化</option>
+            <option value ="3">杂谈</option>
+            <option value="4">心探索</option>
+          </select>
+          <a href="">创建分类</a></div>
+        <div id="b"><span class = "mtitle">标签:</span>
+          <input type = "text" name = "biaoqian" id="biaoqian" placeholder="填写标签让更多人看到你的博文"/>
+        </div>
+      </div>
+      <div id="launch">
+        <input type="button" name="fabowen" id="fabowen" value="发博文"/>
+      </div>
+    </section>
+  </div>
+</div>
+</body>
+</html>

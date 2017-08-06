@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* CSS Document */
+article footer a span{
+	border-right:dashed 1px #CCCCCC;
+}
+#delete{
+	border-right:hidden;
+}
+
+
+.comment>div {
+	border-bottom:dashed 1px #CCCCCC;
+	padding-left:15px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.comment div div{
+	padding-bottom:10px;
+}
+
+.comment div p{
+	text-indent:2em;	
+}
+
+.comment div footer{
+	padding-top:10px;
+}
+
+.d2{
+	padding-right:15px;
+	font-size:12px;
+	float:right;
+	padding-top:3px;
+}
+
+#write_comment{
+	margin-top:-20px;
+}
+
+#textarea{
+	height:200px;
+	width:620px;
+	position:relative;
+	left:15px;
+	top:15px;
+}
+
+#mail{
+	position:relative;
+	left:15px;
+	top:30px;
+	width:140px;
+}
+
+#cuname{
+	position:relative;
+	left:100px;
+	top:30px;
+	width:140px;
+}
+
+label span{
+	color:rgba(51,0,102,0.6);
+	font-size:15px;
+	
+}
+
+#send{
+	width:60px;
+	line-height:2em;
+	border-radius:4px;
+	background:#FFF;
+	position:relative;
+	top:40px;
+	left:15px;	
+}
+
+#later{
+	margin-top:60px;
+	padding-bottom:15px;
+}
+
+#before{
+	width:160px;
+	float:left;
+	padding-left:15px;
+}
+
+#after{
+	width:150px;
+	float:right;
+	padding-right:15px;
+}
+
+span#b{
+	float:left;
+	
+}
+
+span#p{
+	float:right;
+	
+}
+
+#one{
+	line-height:2em;
+}
+
+#two{
+	line-height:2em;
+}
